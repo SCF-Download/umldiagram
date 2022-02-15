@@ -1,0 +1,10 @@
+@startuml
+actor client
+node app
+node kat
+node tshirt
+
+kat -> app
+app -> client
+client -> tshirt
+@enduml
